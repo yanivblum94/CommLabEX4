@@ -22,7 +22,7 @@ void main(int argc, char *argv[]) {
 	size_t testLen = string(test).length();
 
 	/* Default remote server, can be changed using command arguments */
-	string dstIP = "www.google.com";
+	string dstIP = "8.8.8.8";
 	if (argc == 2)
 		dstIP = string(argv[1]);
 
